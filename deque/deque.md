@@ -13,3 +13,5 @@ __addBack(element)__:```This method adds a  new element at the back of the deque
 __removeFront()__:```This method removes the first element from the deque(the same implementation as the dequeue method from the Queue class)```
 
 __removeBack()__:```This method removes the last element from the deque(the same implementation as the "pop" method from the Stack class)```
+
+__peekFront()__:```This method returns the first element from the deque(the same implementation as the "peek" method from the Queue class)```
