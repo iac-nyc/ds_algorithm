@@ -1,4 +1,12 @@
-## map/dictionary methods:
+##  ✅Dictionary Data Structure:
+
+A dictionary is used to store __[key, value]__ pairs, where the key could be used to find a particular element.
+
+A dictionary is very similar to a set; a __set__ stores a __[key, key]__ collection of elements, and a __dictionary__ stores a __[key, value]__ collection of elements.
+
+A dictionary is also known as a ***map***, ***symbol table***, and an ***associative array***.
+
+## ☑️map/dictionary methods:
 
 ```
 set(key, value):
