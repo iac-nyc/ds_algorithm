@@ -1,4 +1,10 @@
-## Methods available for Queue
+## ✅Queue Data Structure
+
+A ***queue*** is an ordered collection of items that follows the __first in, first out (FIFO)__ also known as the __first come, first served__ principle.
+
+The addition of new elements in a queue is at the tail, and the removal is from the front. The newest element added to the queue must wait at the end of the queue.
+
+#### ☑️Methods available for Queue
 
 
 ```
