@@ -9,3 +9,13 @@ function recursiveFunction(params){
     recursiveFunction(params);
 }
 ```
+
+### Calling Indirectly:
+```JavaScript
+function recursiveFunction1(params){
+  recursiveFunction2(params);
+}
+function recursiveFunction2(params){
+  recursiveFunction1(params);
+}
+```
