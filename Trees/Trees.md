@@ -9,4 +9,15 @@ A tree consists of __nodes__ with a __parent-child__ relationship. Each node has
 
 ✔ Binary Tree:
 
-A node in a __binary tree__ has two children at most: one left child and one right child. This definition allows us to write more efficient algorithms to insert, search, and delete nodes to/from a tree. 
+A node in a __binary tree__ has two children at most: one left child and one right child. This definition allows us to write more efficient algorithms to insert, search, and delete nodes to/from a tree.
+
+✔ Binary Search Tree:
+
+A __binary search tree(BST)__ is a binary tree, but it only allows you to store nodes with lesser values on the left-hand side and nodes with greater values on the right-hand side.
+
+✔✔ __Methods__:
+
+```
+insert(key):
+This method inserts a new key in the tree
+```
