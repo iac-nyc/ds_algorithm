@@ -38,3 +38,15 @@ This method visits all the nodes of the tree using pre-order traverse
 postOrderTraverse():
 This method visits all the nodes of the tree using post-order traverse
 ```
+```
+min():
+This method returns the minimum value/key in the tree
+```
+```
+max():
+This method returns the maximum value/key in the tree
+```
+```
+remove(key):
+This method removes the key from the tree
+```
