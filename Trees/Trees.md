@@ -30,3 +30,11 @@ and false if the node does not exist
 inOrderTraverse():
 This method visits all nodes of the tree using in-order traverse
 ```
+```
+preOrderTraverse():
+This method visits all the nodes of the tree using pre-order traverse
+```
+```
+postOrderTraverse():
+This method visits all the nodes of the tree using post-order traverse
+```
