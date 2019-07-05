@@ -21,3 +21,12 @@ A __binary search tree(BST)__ is a binary tree, but it only allows you to store 
 insert(key):
 This method inserts a new key in the tree
 ```
+```
+search(key):
+This method searches for the key in the tree and returns true if it exists
+and false if the node does not exist
+```
+```
+inOrderTraverse():
+This method visits all nodes of the tree using in-order traverse
+```
