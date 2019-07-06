@@ -6,6 +6,8 @@
 
 A tree consists of __nodes__ with a __parent-child__ relationship. Each node has a parent(except for the first node at the top) and zero or more children.
 
+![Tree Terminology](tree.png)
+
 
 ✔ Binary Tree:
 
