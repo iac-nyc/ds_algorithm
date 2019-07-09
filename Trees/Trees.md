@@ -52,3 +52,25 @@ This method returns the maximum value/key in the tree
 remove(key):
 This method removes the key from the tree
 ```
+##  Tree Traversal
+
+Traversing a tree is the process of visiting all the nodes of a tree and performing an operation at each node.
+
+There are 3 types of tree traversal:
+<ol>
+  <li><strong>in-order</strong>
+  <li><strong>pre-order</strong>
+  <li><strong>post-order</strong>
+</ol>
+
+
+***in-order traversal:***
+
+An in-order traversal visits all the nodes of a Binary Search Tree in an ascending order, which means it will visit the nodes from the smallest to the largest. An application of in-order traversal would be to sort a tree.
+
+Implementation:
+```JavaScript
+  inOrderTraverse(callback){
+    this.inOrderTraverseNode(this.root, callback);
+  }
+  ```
