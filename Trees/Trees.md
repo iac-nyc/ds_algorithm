@@ -64,13 +64,23 @@ There are 3 types of tree traversal:
 </ol>
 
 
-***in-order traversal:***
+***In-order traversal:***
 
-An in-order traversal visits all the nodes of a Binary Search Tree in an ascending order, which means it will visit the nodes from the smallest to the largest. An application of in-order traversal would be to sort a tree.
+An __in-order__ traversal visits all the nodes of a Binary Search Tree in an ascending order, which means it will visit the nodes from the smallest to the largest. An application of in-order traversal would be to sort a tree.
 
 Implementation:
 ```JavaScript
   inOrderTraverse(callback){
     this.inOrderTraverseNode(this.root, callback);
+  }
+  ```
+  Helper method:
+  ```JavaScript
+  inOrderTraverseNode(node, callback){
+    if(node != null){
+      this.inOrderTraverseNode(node.left, callback);
+      callback(node.key);
+      this.inOrderTraverseNode(node.right, callback);
+    }
   }
   ```
