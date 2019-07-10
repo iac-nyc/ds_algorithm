@@ -84,3 +84,23 @@ Implementation:
     }
   }
   ```
+  ***Pre-order traversal***
+
+  A __pre-order__ traversal visits the node prior to its descendants. An application of pre-order traversal could be to print a structured document.
+
+  Implementation
+  ```JavaScript
+  preOrderTraverse(callback){
+    this.preOrderTraverseNode(this.root, callback)
+  }
+  ```
+  Helper Method:
+  ```JavaScript
+  preOrderTraverseNode(node, callback){
+    if(node != null){
+      callback(node.key);
+      this.preOrderTraverseNode(node.left, callback);
+      this.preOrderTraverseNode(node.right, callback);
+    }
+  }
+  ```
