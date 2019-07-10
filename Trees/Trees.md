@@ -104,3 +104,24 @@ Implementation:
     }
   }
   ```
+
+  ***Post-order traversal***
+
+  A __post-order__ traversal visits the node after it visits its descendants. An application of post-order traversal could be computing the space used by a file in a directory and its subdirectories.
+
+  Implementation
+  ```JavaScript
+  postOrderTraverse(callback){
+    this.postOrderTraverseNode(this.root, callback);
+  }
+  ```
+  Helper Method:
+  ```JavaScript
+  postOrderTraverseNode(node, callback){
+    if(node != null){
+      this.postOrderTraverseNode(node.left, callback);
+      this.postOrderTraverseNode(node.right, callback);
+      callback(node.key);
+    }
+  }
+  ```
