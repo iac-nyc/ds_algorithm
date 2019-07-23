@@ -125,3 +125,29 @@ Implementation:
     }
   }
   ```
+
+  __Searching for Values in a tree__
+
+  There are three types of searches that are usually performed in trees:
+  <ul>
+    <li>Searching for minimum values</li>
+    <li>Searching for maximum values</li>
+    <li>Searching for a specific value</li>
+  </ul>
+
+  Method to find the minimum key of the tree:
+  ```JavaScript
+    min(){
+      return this.minNode(this.root);
+    }
+
+    minNode(node){
+      
+      let current = node;
+      while (current != null && current.left != null) {
+        current = current.left;
+
+      }
+      return current;
+    }
+  ```
