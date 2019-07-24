@@ -142,11 +142,26 @@ Implementation:
     }
 
     minNode(node){
-      
+
       let current = node;
       while (current != null && current.left != null) {
         current = current.left;
 
+      }
+      return current;
+    }
+  ```
+
+  To find the maximum key, we will traverse the right-hand edge of the tree until we find the last node at the right-hand of the tree.
+  ```JavaScript
+    max(){
+      return this.maxNode(this.root);
+    }
+
+    maxNode(node){
+      let current = node;
+      while (current != null && current.right != null){
+        current = current.right;
       }
       return current;
     }
